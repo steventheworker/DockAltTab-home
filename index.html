@@ -5,9 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>DockAltTab - MacOS window previews on the dock by AltTab</title>
-    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-Tile-Color" content="#da532c" />
     <meta name="theme-color" content="#000000" />
     <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-P7GBPWC8LQ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-P7GBPWC8LQ");
+    </script>
+    <script src="./main.js"></script>
   </head>
   <body>
     <header>
@@ -19,8 +41,7 @@
           <h1>
             <a href="/">DockAltTab</a>
           </h1>
-          <p>Taking your window management to the next level</p>
-          <p>MacOS window previews on the dock. Brought to you by <a href="https://alt-tab-macos.netlify.app" target="_BLANK">AltTab.</p>
+          <p>Taking MacOS window management to the next level.</p>
         </div>
       </div>
     </header>
@@ -54,13 +75,66 @@
     <section class="page">
       <h1 id="introduction">Introduction</h1>
       <p>
-        Bring the power of <a href="https://alt-tab-macos.netlify.app" target="_BLANK">AltTab</a> to the MacOS dock.
+        Keep up with the present by by harnessing the power of Windows
+        --esque app previews on the dock by supercharging your running copy of
+        <a href="https://alt-tab-macos.netlify.app" target="_BLANK">AltTab</a>
+        by today. And you don't even have to buy it.
+        <a class="popupLink" href="javascript:void(0);clickPopupLabel();">Support FOSS</a>
+        <div class="popup">
+          Thats "Free Open Source Software" for ya 😉<br />
+          you can support us via:<br />
+          <ul>
+            <li><a href="https://www.paypal.com/biz/fund?id=EFHJW6S999DWS">PayPal</a></li>
+            <li>Credit Card (not ready)</li>
+            <li>Bitcoin (not ready)</li>
+          </ul>
+        </div>
       </p>
+      <div class="demo">
+        <ul class="labels">
+          <li><h3 class="activeLabel" id="0">Demo Video</h3></li>
+          <li>
+            <h3 id="1">Install Video</h3>
+          </li>
+        </ul>
+        <ul class="vids youtubePreviewMode">
+          <li class="activeVid">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/qaGmcIqUhes"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </li>
+          <li>
+            <h3>Coming soon...</h3>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/y6120QOlsfU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </li>
+        </ul>
+      </div>
       <h2 id="installation">Installation</h2>
       <p>
+        This is an
+        <a target="_BLANK" href="https://alt-tab-macos.netlify.app" target="_BLANK">AltTab</a>
+        companion app. First install their latest release, and then:<br />
         <a href=".zip">
-          <strong>Download the latest release</strong>
+          <strong>Download our latest release</strong>
         </a>
+        <br />
+        OR,<br />
+        Alternatively, you can build the app from the <a target="_BLANK" href="https://github.com/steventheworker/DockAltTab">source</a> by following
+        instructions on the README.md file.
       </p>
       <h2 id="license">License</h2>
       <p>
@@ -72,5 +146,18 @@
         .
       </p>
     </section>
+    <hr color="grey" width="60%" />
+    <footer>
+      <h3>Newsletter</h3>
+      <div>
+        <form method="POST" data-netlify="true" accept-charset="UTF-8">
+          <input name="email" type="email" id="footeremail" required="">
+          <label for="footeremail" class="floating-label">Email</label>
+          <button name="subscribe" type="submit" onclick="subscribe(this);">Subscribe</button>
+          / <button name="unsubscribe" type="submit" onclick="unsubscribe(this);">Unsubscribe</button>
+          <p><small>For those interested in updates, and new releases</small></p>
+        </form>
+      </div>
+    </footer>
   </body>
 </html>

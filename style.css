@@ -1,6 +1,6 @@
 body,
 html {
-  background-color: rgb(25, 25, 25);
+  background-color: rgb(19, 20, 21);
   width: 100%;
   line-height: 1.6;
   margin: 0;
@@ -27,7 +27,7 @@ header h1 {
 }
 header p {
   margin: 0 0 0 10px;
-  color: #666;
+  color: rgb(168, 160, 149);
 }
 header > div {
   display: flex;
@@ -108,4 +108,58 @@ a {
   padding-left: 10px;
   padding-right: 10px;
   word-break: break-word;
+}
+
+.labels li {
+  float: left;
+  list-style: none;
+  margin-right: 2em;
+  cursor: pointer;
+}
+.labels h3 {
+  color: #468ed8;
+}
+h3.activeLabel {
+  color: rebeccapurple;
+}
+.demo .vids li {
+  display: none;
+}
+.demo .activeVid {
+  display: block !important;
+}
+.youtubePreviewMode {
+  height: 200px;
+  overflow: hidden;
+  opacity: 0.2;
+  width: 100%;
+  cursor: pointer;
+}
+.youtubePreviewMode * {
+  pointer-events: none;
+}
+
+.popup {
+  background: rgba(0, 0, 0, 0.8);
+  color: gold;
+  text-shadow: 0 0 1px red;
+  position: absolute;
+  z-index: 9999999;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.333s ease-in-out;
+}
+.showing {
+  visibility: visible;
+  opacity: 1;
+}
+.popupLink {
+  padding: 5px;
+}
+
+.floating-label {
+  position: absolute;
+  margin-left: -155px;
+  margin-top: -18px;
+  font-size: 12px;
 }
