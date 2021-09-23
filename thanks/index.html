@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DockAltTab - MacOS window previews on the dock by AltTab</title>
+    <meta name="msapplication-Tile-Color" content="#da532c" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-P7GBPWC8LQ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-P7GBPWC8LQ");
+    </script>
+    <script src="./main.js"></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="/">
+          <img src="./logo.png" width="100" height="100" />
+        </a>
+        <div>
+          <h1>
+            <a href="/">DockAltTab</a>
+          </h1>
+          <p>Taking MacOS window management to the next level.</p>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <a class="rainbow" href=".zip">Download</a>
+        </li>
+        <li>
+          <a class="" href="/changelog">
+            <span>Release notes</span>
+          </a>
+        </li>
+        <li>
+          <a class="" href="/contributing">
+            <span>Contributing</span>
+          </a>
+        </li>
+        <li>
+          <a class="" href="/thanks">
+            <span>Thanks</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/steventheworker/DockAltTab">
+            <span>GitHub project</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <section class="page">
+      <h2>Contributors</h2>
+      <a href="https://github.com/lwouis/alt-tab-macos">AltTab</a>
+      <ul>
+        <li><a href="https://github.com/lwouis">lwouis</a></li>
+        <li>
+          <a href="https://github.com/steventheworker">steventheworker</a>
+        </li>
+      </ul>
+    </section>
+    <hr color="grey" width="60%" />
+    <footer>
+      <h3>Newsletter</h3>
+      <div>
+        <form method="POST" data-netlify="true" accept-charset="UTF-8">
+          <input name="email" type="email" id="footeremail" required="" />
+          <label for="footeremail" class="floating-label">Email</label>
+          <button name="subscribe" type="submit" onclick="subscribe(this);">
+            Subscribe
+          </button>
+          /
+          <button name="unsubscribe" type="submit" onclick="unsubscribe(this);">
+            Unsubscribe
+          </button>
+          <p>
+            <small>For those interested in updates, and new releases</small>
+          </p>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
