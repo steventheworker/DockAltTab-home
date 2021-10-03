@@ -195,5 +195,5 @@ h3.activeLabel {
 }
 
 .bwc-modal-container {
-  z-index: 9999999;
+  z-index: 9999999 !important;
 }
