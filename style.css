@@ -154,7 +154,7 @@ h3.activeLabel {
   opacity: 1;
 }
 .popupLink {
-  padding: 5px;
+  padding: 15px;
 }
 
 .floating-label {
@@ -162,4 +162,34 @@ h3.activeLabel {
   margin-left: -155px;
   margin-top: -18px;
   font-size: 12px;
+}
+
+.payment-methods ul {
+  display: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin-left: -3px;
+  padding-left: 7px;
+}
+.payment-methods a:hover {
+  color: white;
+}
+.payment-methods a:hover + ul,
+.payment-methods ul:hover {
+  display: inline;
+}
+.popup li {
+  list-style-type: lower-roman;
+  color: #71ff71;
+}
+.payment-methods ul li {
+  display: inline;
+  padding-left: 5px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.payment-methods ul li a {
+  color: #71ff71;
+  font-weight: bold;
 }
