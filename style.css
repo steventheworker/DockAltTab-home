@@ -21,6 +21,21 @@ header {
 header a {
   color: white;
 }
+nav li:last-child strong {
+  text-shadow: 1px 1px 2px pink;
+  color: #b6b6b6;
+  padding: 5px;
+  margin: -5px;
+  outline: 1px dashed #b6b6b6;
+}
+nav li:last-child strong:hover {
+  outline-style: solid;
+  text-decoration: underline;
+  opacity: 0.8;
+}
+nav li:last-child strong:active {
+  opacity: 0.2;
+}
 header h1 {
   margin: 20px 0 5px 10px;
   line-height: 1;
