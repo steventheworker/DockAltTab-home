@@ -77,10 +77,7 @@
     <section class="page">
       <h1 id="introduction">Introduction</h1>
       <p>
-        Keep up with the present by by harnessing the power of Windows
-        --esque app previews on the MacOS dock by supercharging your running copy of
-        <a href="https://alt-tab-macos.netlify.app" target="_BLANK">AltTab</a>
-        by today. And you don't even have to buy it. DockAltTab is a window management app for MacOS. It provides previews on the dock using the familiar AltTab interface (shortcut2 must be set  to Cmd+`) to trigger another application's (AltTab) keyboard shortcuts (using Esc and Cmd+`) to show/hide an overlay of the open window previews / thumbnails (for all/current space(s)) for the app icon you're hovering on in the macOS dock.
+        DockAltTab provides Windows-like previews on the macOS dock using the familiar AltTab interface. As of v2.0, it does so by sending Apple Events to our <a href="/changelog">modded AltTab</a>. Whereas <a href="/changelog#v1.2">v1.2</a> and below are compatible with the <a href="https://alt-tab-macos.netlify.app" target="_BLANK">official source</a> and don't require automation privileges, however they auto-activate apps before window previews can be shown and are lacking other newer features (and do so by sending keyboard shortcuts).
         <a class="popupLink" href="javascript:void(0);clickPopupLabel();">Support FOSS</a>
         <div class="popup">
           Thats "Free Open Source Software" for ya 😉<br />
@@ -139,24 +136,18 @@
       </div>
       <h2 id="installation">Installation</h2>
       <p>
-        This is an
-        <a target="_BLANK" href="https://alt-tab-macos.netlify.app" target="_BLANK">AltTab</a>
-        companion app. First install their latest release, and then:<br />
-        <a href="https://github.com/steventheworker/DockAltTab/releases/download/v1.1/DockAltTab-1.1.zip">
-          <strong>Download our latest release</strong>
+        Install the <a href="/changelog/">mod</a> (based on AltTab 6.37.1) and run it with our
+        <a href="https://github.com/steventheworker/DockAltTab/releases/download/v2.0/DockAltTab-v2.0.zip">
+          <strong>latest release</strong>
         </a>
         <br />
         OR,<br />
-        Alternatively, you can build the app from the <a target="_BLANK" href="https://github.com/steventheworker/DockAltTab">source</a> by following
-        instructions on the README.md file.
-        <br />
-        <br />
-        
-        and finally,<br />
-        Open AltTab. In the "Controls" tab click "Shortcut 2".<br />
-"Hold ⌥ and press ` " &nbsp; => &nbsp;"Hold ⌘ and press ` "
-<br /><br />
-All set ✅
+        Alternatively, you can build the apps by building the <a target="_BLANK" href="https://github.com/steventheworker/DockAltTab">DockAltTab source code</a> and <a target="_BLANK" href="https://github.com/steventheworker/alt-tab-macos">Modded AltTab source code</a> in Xcode
+        <ul>
+          <li>If you already had AltTab installed: set your AltTab preferences (mod doesn't carry over settings from the official app)</li>
+          <li>Grant accessibility (in Security & Privacy settings) and then it should ask for automation privileges</li>
+        </ul>
+        ✅ All set
       </p>
       <h2 id="license">License</h2>
       <p>
