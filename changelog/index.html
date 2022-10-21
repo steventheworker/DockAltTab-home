@@ -64,12 +64,12 @@
 				<li>
 					<a
 						class="rainbow"
-						href="https://github.com/steventheworker/DockAltTab/releases/download/v2.3/DockAltTab-v2.3.zip"
+						href="https://github.com/steventheworker/DockAltTab/releases/download/v2.5/DockAltTab-v2.5.zip"
 						><span>Download</span></a
 					>
 					<a
 						class="altLink"
-						href="https://github.com/steventheworker/DockAltTab/releases/download/v2.3/DockAltTab-macOS10.12.zip"
+						href="https://github.com/steventheworker/DockAltTab/releases/download/v2.5/DockAltTab-macOS10.12.zip"
 						onmouseout="this.innerText='v';"
 						onmouseover="this.innerText='Legacy Build (10.12)';"
 						>v</a
@@ -112,6 +112,8 @@
 				font-size: 1em;
 				position: relative;
 			}
+			.spoilerLink {color: grey;height: 9rem;overflow: hidden;display: block;}
+			.spoilerLink:hover {color: #000dff;}
 			@media screen and (min-width: 375px) {
 				.moreInfoPanel {
 					position: absolute;
@@ -129,7 +131,7 @@
 		</style>
 		<section class="page" style="position: relative">
 			<h3 class="modDownloadLink">
-				v2.3 &nbsp; &nbsp; - &nbsp; &nbsp; REQUIRES &nbsp; &nbsp;
+				v2.5 &nbsp; &nbsp; - &nbsp; &nbsp; REQUIRES &nbsp; &nbsp;
 				<b>
 					<a
 						style="color: #c6196b"
@@ -152,13 +154,47 @@
 					>
 				</h6>
 			</h3>
+			<!-- release -->
 			Download (current release)
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.5/DockAltTab-v2.5.zip"
+				>DockAltTab-v2.5.zip</a
+			>
+			<br />
+			Download (Legacy build)
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.5/DockAltTab-macOS10.12.zip"
+				>macOS 10.12 build</a
+			>
+			<span>October 21, 2022</span>
+			<ul>
+				<li>prevent flickering when right clicking dock icons</li>
+				<li>right click menus now working while previews are open</li>
+			</ul>
+			<!-- release -->
+			<h4>v2.4</h4>
+			Download
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.4/DockAltTab-v2.4.zip"
+				>DockAltTab-v2.4.zip</a
+			>
+			&nbsp; | &nbsp;
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.4/DockAltTab-macOS10.12.zip"
+				>macOS 10.12 build</a
+			>
+			<span>September 16, 2022</span>
+			<ul>
+				<li><a class="spoilerLink" href="https://github.com/steventheworker/DockAltTab/releases/tag/v2.4">NOTE: This version hasn&#x27;t been notarized as my dev license has expired (hence the pre-release). Please consider donating using the &#x22;Support FOSS&#x22; link on the homepage.,,build 1 (September 29),,    fix memory leak,    add Dock Delay setting in preferences,    repair clickToggle (hiding disabled after click/mouse out of dock (bug introduced @ v2.3)),    relaunch AltTab w/ same path (if already running) --prevent running the wrong copy (eg: Xcode archived versions),,build 2 (Patched October 4),,    re-add Apple Events to hardened runtime (under Project Targets -&#x3E; Signing &#x26; Capabilities),,build 3 (Patched October 13),,    improve preview position on external monitors that have offsets,,build 4 (Patched October 17),,    detect github issue #4 and default to default (center) AltTab location (if x = 0 &#x26; y = 0),</a></li>
+			</ul>
+			<!-- release -->
+			<h4>v2.3</h4>
+			Download
 			<a
 				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.3/DockAltTab-v2.3.zip"
 				>DockAltTab-v2.3.zip</a
 			>
-			<br />
-			Download (Legacy build)
+			&nbsp; | &nbsp;
 			<a
 				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.3/DockAltTab-macOS10.12.zip"
 				>macOS 10.12 build</a
@@ -184,6 +220,7 @@
 					></div></small
 				>
 			</ul>
+			<!-- release -->
 			<h4>v2.2</h4>
 			Download
 			<a
@@ -204,6 +241,7 @@
 				</li>
 				<li>bug fix (hidden app issue)</li>
 			</ul>
+			<!-- release -->
 			<h4>v2.1</h4>
 			Download
 			<a
