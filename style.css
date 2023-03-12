@@ -238,3 +238,44 @@ h3.activeLabel {
 .bwc-modal-container {
 	z-index: 9999999 !important;
 }
+
+/* star buttons, starButton info */
+starInfo {
+	background: grey;
+	border-radius: 100%;
+	position: relative;
+}
+starInfo:before {
+	font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD,
+		Georgia, serif;
+	font-size: 1em;
+	content: "i";
+	padding: 0.2em;
+	outline: 1px round black;
+	margin: 0.2em;
+	cursor: pointer;
+}
+.changelog-page starInfo {
+	margin-left: 75%;
+}
+@media screen and (min-width: 579px) {
+	.changelog-page starInfo {
+		margin-left: 85%;
+	}
+	.changelog-page starPopup {
+		right: auto;
+		left: -10em !important;
+	}
+}
+starInfo:hover starPopup {
+	display: block;
+	top: 0;
+	right: -10.5em;
+	width: 10em;
+}
+starPopup {
+	display: none;
+	position: absolute;
+	margin-top: -0.25em;
+	font-size: 0.75em;
+}
