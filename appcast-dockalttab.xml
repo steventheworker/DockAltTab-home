@@ -9,7 +9,7 @@
          <title>Version 2.91.0</title>
          <pubDate>Wed, 04 Sept 2023 19:00:00 +0000</pubDate>
          <sparkle:minimumSystemVersion>11.3</sparkle:minimumSystemVersion>
-         <sparkle:releaseNotesLink>https://dockalttab.netlify.app/changelog</sparkle:releaseNotesLink>
+         <sparkle:releaseNotesLink>https://dockalttab.netlify.app/changelog-sparkle</sparkle:releaseNotesLink>
          <enclosure
             url="https://github.com/steventheworker/DockAltTab/releases/download/v2.91.0/DockAltTab-2.91.0.zip"
             sparkle:version="2.91.0"
@@ -21,7 +21,7 @@
          <title>Version 2.91.0</title>
          <pubDate>Wed, 04 Sept 2023 19:00:00 +0000</pubDate>
          <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
-         <sparkle:releaseNotesLink>https://dockalttab.netlify.app/changelog/</sparkle:releaseNotesLink>
+         <sparkle:releaseNotesLink>https://dockalttab.netlify.app/changelog-sparkle</sparkle:releaseNotesLink>
          <enclosure
             url="https://github.com/steventheworker/DockAltTab/releases/download/v2.91.0/DockAltTab-2.91.0-legacy.zip"
             sparkle:version="2.91.0"
