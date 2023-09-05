@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>DockAltTab - MacOS window previews on the dock by AltTab</title>
+		<meta name="msapplication-Tile-Color" content="#da532c" />
+		<meta name="theme-color" content="#000000" />
+		<link rel="stylesheet" type="text/css" href="../style.css" />
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="/site.webmanifest" />
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+		<meta name="msapplication-TileColor" content="#da532c" />
+		<meta name="theme-color" content="#ffffff" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-P7GBPWC8LQ"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+
+			gtag("config", "G-P7GBPWC8LQ");
+		</script>
+		<script src="../main.js"></script>
+		<!-- Place this tag in your head or just before your close body tag. -->
+		<script async defer src="https://buttons.github.io/buttons.js"></script>
+	</head>
+	<body>
+		<style>
+			.page span {
+				position: absolute;
+				right: 0;
+				color: rgb(152, 143, 129);
+			}
+			.moreInfoPanel {
+				position: absolute;
+				left: 50%;
+				margin-top: -4em;
+			}
+			.modDownloadLink {
+				font-size: 1em;
+				position: relative;
+			}
+			.spoilerLink {color: grey;height: 9rem;overflow: hidden;display: block;}
+			.spoilerLink:hover {color: #000dff;}
+			@media screen and (min-width: 375px) {
+				.moreInfoPanel {
+					position: absolute;
+					left: 50%;
+					margin-top: -4em;
+				}
+			}
+			@media screen and (min-width: 579px) {
+				.moreInfoPanel {
+					position: absolute;
+					margin-top: -1.9em;
+					left: 50%;
+				}
+			}
+			.page span:first-of-type {background: rgba(0, 0, 0, 0.5);} /* first release date */
+		</style>
+		<section class="page changelog-page" style="position: relative">
+			<div style="width: 100%;text-align: left;">
+				<a class="github-button" href="https://github.com/steventheworker/DockAltTab" data-icon="octicon-star" data-show-count="true" aria-label="Star steventheworker/DockAltTab on GitHub">Star</a>
+				<a href="https://github.com/Homebrew/brew/blob/master/docs/Acceptable-Casks.md#rejected-casks"><starInfo><starPopup>Goal (point 10): 75 stars to submit to brew</starPopup></starInfo></a>
+			</div>
+			<a class="github-button" href="https://github.com/steventheworker/alt-tab-macos" data-icon="octicon-star" data-show-count="true" aria-label="Star steventheworker/alt-tab-macos on GitHub">Star</a>
+			<h3 class="modDownloadLink">
+				v2.9 &nbsp; &nbsp; - &nbsp; &nbsp; REQUIRES &nbsp; &nbsp;
+				<b>
+					<a
+						style="color: #c6196b"
+						href="https://github.com/steventheworker/alt-tab-macos/releases/download/1.8/DockAltTab.AltTab.v6.61.0.zip"
+						>Modified AltTab (Download link)</a
+					>
+				</b>
+				<h6 class="moreInfoPanel">
+					<a
+						style="color: #1cd9df"
+						href="https://github.com/lwouis/alt-tab-macos/pull/1590#issuecomment-1131809994"
+						target="_BLANK"
+						>More Information</a
+					>
+					&nbsp; &nbsp; | &nbsp; &nbsp;
+					<a
+						style="color: seagreen"
+						href="https://github.com/steventheworker/alt-tab-macos/tree/scriptable"
+						>Modified AltTab&apos;s GitHub</a
+					>
+				</h6>
+			</h3>
+			<!-- release -->
+			Download (current release)
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.9/DockAltTab-v2.9.zip"
+				>DockAltTab-v2.9.zip</a
+			>
+			<br />
+			Download (Legacy build)
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.9/DockAltTab-macOS10.12.zip"
+				>macOS 10.12 build</a
+			>
+			<span>August 18, 2023</span>
+			<ul>
+				<li>fix annoying bug (hidden app unhides and/or switches space at the wrong time)</li>
+				<li>close/minimize buttons no longer auto-closes the preview window</li>
+				<small>
+					<i
+						>(required) <div style="float: left;margin-right: 0.5em;color: grey">scriptable AltTab update required</i
+					></div></small>
+			</ul>
+
+			<!-- release -->
+			<h4>v2.8</h4>
+			Download
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.8/DockAltTab-v2.8.zip"
+				>DockAltTab-v2.8.zip</a
+			>
+			&nbsp; | &nbsp;
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.8/DockAltTab-macOS10.12.zip"
+				>macOS 10.12 build</a
+			>
+			<span>May 6, 2023</span>
+			<ul>
+				<li>send coordinates of dock icon to AltTab (to more decisively center previews)</li>
+				<small>
+					<i
+						>(required) <div style="float: left;margin-right: 0.5em;color: grey">scriptable AltTab update required</i
+					></div></small>
+			</ul>
+
+			<!-- release -->
+			<h4>v2.7</h4>
+			Download
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.7/DockAltTab-v2.7.zip"
+				>DockAltTab-v2.7.zip</a
+			>
+			&nbsp; | &nbsp;
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.7/DockAltTab-macOS10.12.zip"
+				>macOS 10.12 build</a
+			>
+			<span>February 24, 2023</span>
+			<ul>
+				<li>show previews from all spaces (checks if "All spaces" is checked under AltTab preferences (on launch))</li>
+				<li>remove hide delay & separate mousedown/mouseup (related to issue #11)</li>
+								<small>
+					<i
+						>(optional) <div style="float: left;margin-right: 0.5em;color: grey">redownload mod to use "All spaces" mode in AltTab preferences (on last shortcut labeled &quot;DockAltTab&quot;)</i
+					></div></small
+				>
+			</ul>
+
+			<!-- release -->
+			<h4>v2.6</h4>
+			Download
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.6/DockAltTab-v2.6.zip"
+				>DockAltTab-v2.5.zip</a
+			>
+			&nbsp; | &nbsp;
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.6/DockAltTab-macOS10.12.zip"
+				>macOS 10.12 build</a
+			>
+			<span>November 21, 2022</span>
+			<ul>
+				<li>add "Differentiate Hidden Apps" in dock settings</li>
+				<li>bug fix: DockAltTab centered previews if you recently reset dock settings in terminal or were using a new macOS install and never changed your dock position before</li>
+				<li>add hyperlinks menu</li>
+			</ul>
+			
+			<!-- release -->
+			<h4>v2.5</h4>
+			Download
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.5/DockAltTab-v2.5.zip"
+				>DockAltTab-v2.5.zip</a
+			>
+			&nbsp; | &nbsp;
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.5/DockAltTab-macOS10.12.zip"
+				>macOS 10.12 build</a
+			>
+			<span>October 21, 2022</span>
+			<ul>
+				<li>prevent flickering when right clicking dock icons</li>
+				<li>right click menus now working while previews are open</li>
+			</ul>
+
+			<!-- release -->
+			<h4>v2.4</h4>
+			Download
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.4/DockAltTab-v2.4.zip"
+				>DockAltTab-v2.4.zip</a
+			>
+			&nbsp; | &nbsp;
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.4/DockAltTab-macOS10.12.zip"
+				>macOS 10.12 build</a
+			>
+			<span>September 29, 2022</span>
+			<ul>
+				<li><a class="spoilerLink" href="https://github.com/steventheworker/DockAltTab/releases/tag/v2.4" target="_BLANK">NOTE: This version hasn&#x27;t been notarized as my dev license has expired (hence the pre-release). Please consider donating using the &#x22;Support FOSS&#x22; link on the homepage.,,build 1 (September 29),,    fix memory leak,    add Dock Delay setting in preferences,    repair clickToggle (hiding disabled after click/mouse out of dock (bug introduced @ v2.3)),    relaunch AltTab w/ same path (if already running) --prevent running the wrong copy (eg: Xcode archived versions),,build 2 (Patched October 4),,    re-add Apple Events to hardened runtime (under Project Targets -&#x3E; Signing &#x26; Capabilities),,build 3 (Patched October 13),,    improve preview position on external monitors that have offsets,,build 4 (Patched October 17),,    detect github issue #4 and default to default (center) AltTab location (if x = 0 &#x26; y = 0),</a></li>
+			</ul>
+			<!-- release -->
+			<h4>v2.3</h4>
+			Download
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.3/DockAltTab-v2.3.zip"
+				>DockAltTab-v2.3.zip</a
+			>
+			&nbsp; | &nbsp;
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.3/DockAltTab-macOS10.12.zip"
+				>macOS 10.12 build</a
+			>
+			<span>September 16, 2022</span>
+			<ul>
+				<li>
+					"Reopen previews on clicks that switch spaces" --setting in
+					preferences
+				</li>
+				<li>
+					prevent previews when icons clicked immediately (before
+					delay finished)
+				</li>
+				<li>
+					minor improvements / bug fixes / correctly reset default
+					AltTab preview positions
+				</li>
+				<small>
+					<i
+						>(optional) <div style="float: left;margin-right: 0.5em;color: grey">redownload mod to "use mouse hover" to
+						select windows (while disabled on AltTab)</i
+					></div></small
+				>
+			</ul>
+			<!-- release -->
+			<h4>v2.2</h4>
+			Download
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.2/DockAltTab-v2.2.zip"
+				>DockAltTab-v2.2.zip</a
+			>
+			&nbsp; | &nbsp;
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.2/DockAltTab-macOS10.12.zip"
+				>macOS 10.12 build</a
+			>
+			<span>August 5, 2022</span>
+			<ul>
+				<li>reopen the dock when clicking switches spaces</li>
+				<li>
+					add "Restart AltTab" to menu, reset dock variables after
+					dock restart/kill
+				</li>
+				<li>bug fix (hidden app issue)</li>
+			</ul>
+			<!-- release -->
+			<h4>v2.1</h4>
+			Download
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.1/DockAltTab-v2.1.zip"
+				>DockAltTab-v2.1.zip</a
+			>
+			&nbsp; | &nbsp;
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.1/DockAltTab-macOS10.12.zip"
+				>macOS 10.12 build</a
+			>
+			<span>July 8, 2022</span>
+			<ul>
+				<li>Show previews right above / besides the dock</li>
+								<small>
+					<i
+						>(note: required) <div style="float: left;margin-right: 0.5em;color: grey">update modified AltTab to latest</i
+					></div></small
+				>
+			</ul>
+			<h4>v2.0</h4>
+			Download
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.0/DockAltTab-v2.0.zip"
+				>DockAltTab-v2.0.zip</a
+			>
+			&nbsp; | &nbsp;
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.0/DockAltTab-maOS10.12.zip"
+				>macOS 10.12 build</a
+			>
+			<span>May 19, 2022</span>
+			<ul>
+				Catch up to
+				<a href="http://dockexpose.netlify.app">Dock Exposé v2.4</a
+				>&apos;s features
+				<li>Show previews without making the app active</li>
+				<li>
+					toggle showing/hiding app when you click on its dock icon
+				</li>
+				<li>check for updates on launch</li>
+				<li>remember app preferences</li>
+				<li>add lock dock contents/position/size</li>
+			</ul>
+			<hr />
+			<h3 id="v1.2">
+				v1.2 &nbsp; & &nbsp; Below &nbsp; &nbsp; - &nbsp; &nbsp; WORKS
+				WITH &nbsp; &nbsp; &nbsp;
+				<a href="https://github.com/lwouis/alt-tab-macos"
+					>AltTab by lwouis</a
+				>
+			</h3>
+			Download
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v1.2/DockAltTab-v1.2.zip"
+				>DockAltTab-v1.2.zip</a
+			>
+			&nbsp; | &nbsp;
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v1.2/DockAltTab-maOS10.12.zip"
+				>macOS 10.12 build</a
+			>
+			&nbsp; | &nbsp;
+			<a
+				href="https://www.youtube.com/watch?v=wK-f3zc9b6E"
+				target="_BLANK"
+				>Install Video</a
+			>
+			<span>October 12, 2021</span>
+			<ul>
+				<li>begin to also use command key to hide the overlay</li>
+				<li>stop triggering escape on background apps</li>
+				<li>
+					stops random beeping noises (for the most part; these are
+					caused by the escape key triggering, which has been reduced
+					(but not eliminated by using cmd key))
+				</li>
+			</ul>
+			<h3>v1.1</h3>
+			Download
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v1.1/DockAltTab-1.1.zip"
+				>DockAltTab-v1.1.zip</a
+			>
+			<span>October 6, 2021</span>
+			<ul>
+				<li>Add menu icon</li>
+				<li>Add preferences window</li>
+			</ul>
+			<h3>v1.0</h3>
+			Download
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v1.0/DockAltTab-1.0.zip"
+				>DockAltTab-v1.0.zip</a
+			>
+			<span>September 22, 2021</span>
+			<ul>
+				The first release. App was notarized.
+			</ul>
+		</section>
+	</body>
+</html>
