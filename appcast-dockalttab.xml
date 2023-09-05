@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>DockAltTab</title>
+    <language>en</language>
+    <item>
+      <title>Version 2.91</title>
+      <pubDate>Wed, 12 Jul 2023 16:32:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>11.3</sparkle:minimumSystemVersion>
+      <sparkle:releaseNotesLink>https://dockalttab.netlify.app/changelog</sparkle:releaseNotesLink>
+      <enclosure
+        url="https://github.com/steventheworker/DockAltTab/releases/download/v2.91.0/DockAltTab-2.91.0.zip"
+        sparkle:version="2.91.0"
+        sparkle:shortVersionString="2.91.0"
+        sparkle:edSignature="z4k5/HrSbloLMgMh12s5Dtm2vjzv1W6j8nGtPPCmneaVtNlTTg/YGcs8ZMwQGfCov4IUiGgKnFmlJ350DTFgCQ==" length="8819618"
+        type="application/octet-stream"/>
+    </item>
+    <item>
+      <title>Version 2.91</title>
+      <pubDate>Wed, 12 Jul 2023 16:32:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+      <sparkle:releaseNotesLink>https://dockalttab.netlify.app/changelog/</sparkle:releaseNotesLink>
+      <enclosure
+        url="https://github.com/steventheworker/DockAltTab/releases/download/v2.91.0/DockAltTab-2.91.0-legacy.zip"
+        sparkle:version="2.91.0"
+        sparkle:shortVersionString="2.91.0"
+        sparkle:edSignature="z4k5/HrSbloLMgMh12s5Dtm2vjzv1W6j8nGtPPCmneaVtNlTTg/YGcs8ZMwQGfCov4IUiGgKnFmlJ350DTFgCQ==" length="8819618"
+        type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
