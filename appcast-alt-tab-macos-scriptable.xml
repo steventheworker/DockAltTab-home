@@ -8,7 +8,7 @@
          <title>Scriptable Version 2.00.0</title>
          <pubDate>Wed, 04 Sept 2023 19:00:00 +0000</pubDate>
          <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
-         <sparkle:releaseNotesLink>https://dockalttab.netlify.app/changelog</sparkle:releaseNotesLink>
+         <sparkle:releaseNotesLink>https://dockalttab.netlify.app/changelog-sparkle/</sparkle:releaseNotesLink>
          <enclosure
             url="https://github.com/steventheworker/alt-tab-macos/releases/download/2.00.0/AltTab-scriptable-2.00.0.zip"
             sparkle:version="2.00.0"
