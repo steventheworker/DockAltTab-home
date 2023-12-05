@@ -88,7 +88,7 @@
 			</div>
 			<a class="github-button" href="https://github.com/steventheworker/alt-tab-macos" data-icon="octicon-star" data-show-count="true" aria-label="Star steventheworker/alt-tab-macos on GitHub">Star</a>
 			<h3 class="modDownloadLink">
-				v2.9 &nbsp; &nbsp; - &nbsp; &nbsp; REQUIRES &nbsp; &nbsp;
+				v2.91.0 &nbsp; &nbsp; - &nbsp; &nbsp; REQUIRES &nbsp; &nbsp;
 				<b>
 					<a
 						style="color: #c6196b"
@@ -114,11 +114,57 @@
 			<!-- release -->
 			Download (current release)
 			<a
-				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.9/DockAltTab-v2.9.zip"
-				>DockAltTab-v2.9.zip</a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.91.0/DockAltTab-v2.91.0.zip"
+				>DockAltTab-v2.91.0.zip</a
 			>
 			<br />
 			Download (Legacy build)
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.91.0/DockAltTab-macOS10.12.zip"
+				>macOS 10.12 build</a
+			>
+			<span>December 4, 2023</span>
+			<ul>
+				<li>rebuild / new UI
+					<ul>
+						<li>features
+							<ul>
+								<li>preview modes (Ubuntu, Windows, MacOS)
+									<ul>
+										<li>Ubuntu = prevent space switching on click, click/middleclick to preview (at least 2 previews)</li>
+										<li>Windows = prevent space switching on click, hover previews</li>
+										<li>MacOS = space switching on clicks + reshow (<b>TODO</b>), hover previews</li>
+									</ul>
+								</li>
+								<li>the dock gap area now treated as part of the dock --reacts to clicks, and shows previews</li>
+								<li>immediately click to toggle show/hide app (no delay)</li>
+								<li>fix bug where clicking creates a new window and then the app hides</li>
+								<li>use app update framework (Sparkle)</li>
+							</ul>
+						</li>
+						<li>features that still need to be re-added
+							<ul>
+								<li>delay slider</li>
+								<li>delay to hide previews</li>
+								<li>MacOS mode is currently the same as Windows mode</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<small>
+					<i
+						>(required) <div style="float: left;margin-right: 0.5em;color: grey">≥ scriptable AltTab (1.8)</i
+					></div></small>
+			</ul>
+
+			<!-- release -->
+			<h4>v2.9</h4>
+			Download
+			<a
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.9/DockAltTab-v2.9.zip"
+				>DockAltTab-v2.9.zip</a
+			>
+			&nbsp; | &nbsp;
 			<a
 				href="https://github.com/steventheworker/DockAltTab/releases/download/v2.9/DockAltTab-macOS10.12.zip"
 				>macOS 10.12 build</a
@@ -385,5 +431,6 @@
 				The first release. App was notarized.
 			</ul>
 		</section>
+		<hr color="grey" width="60%" />
 	</body>
 </html>
