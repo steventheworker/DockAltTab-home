@@ -6,6 +6,32 @@
    
       <!-- 2 item per update (11.3, legacy (10.12))  -->
       <item>
+         <title>Version 3.00.1</title>
+         <pubDate>Wed, 06 Dec 2023 21:00:00 +0000</pubDate>
+         <sparkle:minimumSystemVersion>11.3</sparkle:minimumSystemVersion>
+         <sparkle:releaseNotesLink>https://dockalttab.netlify.app/changelog-sparkle</sparkle:releaseNotesLink>
+         <enclosure
+            url="https://github.com/steventheworker/DockAltTab/releases/download/v3.00.1/DockAltTab-v3.00.1.zip"
+            sparkle:version="3.00.1"
+            sparkle:shortVersionString="3.00.1"
+            sparkle:edSignature="3pSUGrP7ImJdrQBclRk+0pAZgCnbe8Tq+3oX+vVqMo0IMGJyYyMZ9nx2F81H5OkhPvWcDlcAC57GA/wmV3BFCg==" length="1823137"
+            type="application/octet-stream"/>
+      </item>
+      <item>
+         <title>Version 3.00.1</title>
+         <pubDate>Wed, 06 Dec 2023 19:00:00 +0000</pubDate>
+         <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+         <sparkle:releaseNotesLink>https://dockalttab.netlify.app/changelog-sparkle</sparkle:releaseNotesLink>
+         <enclosure
+            url="https://github.com/steventheworker/DockAltTab/releases/download/v3.00.1/DockAltTab-macOS10.12.zip"
+            sparkle:version="3.00.1"
+            sparkle:shortVersionString="3.00.1"
+            sparkle:edSignature="z4k5/HrSbloLMgMh12s5Dtm2vjzv1W6j8nGtPPCmneaVtNlTTg/YGcs8ZMwQGfCov4IUiGgKnFmlJ350DTFgCQ==" length="8819618"
+            type="application/octet-stream"/>
+      </item>
+
+      <!-- 2 item per update (11.3, legacy (10.12))  -->
+      <item>
          <title>Version 3.00.0</title>
          <pubDate>Wed, 06 Dec 2023 19:00:00 +0000</pubDate>
          <sparkle:minimumSystemVersion>11.3</sparkle:minimumSystemVersion>
