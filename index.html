@@ -15,6 +15,11 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
+		<script>
+			const script = document.createElement('script');
+   		script.src = `./version.js?timestamp=${new Date().getTime()}`;
+   		document.head.appendChild(script);
+		</script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -50,8 +55,8 @@
     <nav>
       <ul>
         <li>
-          <a class="rainbow" href="https://github.com/steventheworker/DockAltTab/releases/download/v3.00.4/DockAltTab-v3.00.4.zip"><span>Download</span></a>
-          <a class="altLink" href="https://github.com/steventheworker/DockAltTab/releases/download/v3.00.4/DockAltTab-macOS10.12.zip" onmouseout="this.innerText='v';" onmouseover="this.innerText='Legacy Build (10.12)';">v</a>
+          <a class="rainbow loadanchor" href="https://github.com/steventheworker/DockAltTab/releases/download/v3.00.5/DockAltTab-v3.00.5.zip"><span>Download</span></a>
+          <a class="altLink loadanchor" href="https://github.com/steventheworker/DockAltTab/releases/download/v3.00.5/DockAltTab-macOS10.12.zip" onmouseout="this.innerText='v';" onmouseover="this.innerText='Legacy Build (10.12)';">v</a>
         </li>
         <li>
           <a class="" href="/changelog">
@@ -165,7 +170,7 @@
       <h2 id="installation">Installation</h2>
       <p>
         Install the <a href="/changelog/">mod</a> (based on AltTab 7.23.0) and run it with the
-        <a href="https://github.com/steventheworker/DockAltTab/releases/download/v3.00.4/DockAltTab-v3.00.4.zip">
+        <a class="loadanchor" href="https://github.com/steventheworker/DockAltTab/releases/download/v3.00.5/DockAltTab-v3.00.5.zip">
           <strong>latest release</strong>
         </a>
         <br />

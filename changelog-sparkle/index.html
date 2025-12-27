@@ -29,6 +29,11 @@
 		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
 		<meta name="msapplication-TileColor" content="#da532c" />
 		<meta name="theme-color" content="#ffffff" />
+		<script>
+			const script = document.createElement('script');
+   		script.src = `../version.js?timestamp=${new Date().getTime()}`;
+   		document.head.appendChild(script);
+		</script>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script
 			async
@@ -88,11 +93,11 @@
 			</div>
 			<a class="github-button" href="https://github.com/steventheworker/alt-tab-macos" data-icon="octicon-star" data-show-count="true" aria-label="Star steventheworker/alt-tab-macos on GitHub">Star</a>
 			<h3 class="modDownloadLink">
-				v3.00.4 &nbsp; &nbsp; - &nbsp; &nbsp; REQUIRES &nbsp; &nbsp;
+				<div class="loadv">v3.00.5</div> &nbsp; &nbsp; - &nbsp; &nbsp; REQUIRES &nbsp; &nbsp;
 				<b>
 					<a
-						style="color: #c6196b"
-						href="https://github.com/steventheworker/alt-tab-macos/releases/download/1.94.0/AltTab-scriptable-1.94.0.zip"
+						style="color: #c6196b" class="loadanchor2"
+						href="https://github.com/steventheworker/alt-tab-macos/releases/download/1.94.2/AltTab-scriptable-1.94.2.zip"
 						>Modified AltTab (Download link)</a
 					>
 				</b>
@@ -115,12 +120,29 @@
 			<br />
 			<!-- current release -->
 			Download (current release)
+			<a class="loadanchor loadanchorv"
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v3.00.5/DockAltTab-v3.00.5.zip"
+				>DockAltTab-v3.00.5.zip</a
+			>
+			<br />
+			Download (Legacy build)
+			<a class="loadanchor"
+				href="https://github.com/steventheworker/DockAltTab/releases/download/v3.00.5/DockAltTab-macOS10.12.zip"
+				>macOS 10.12 build</a
+			>
+			<span>December 26, 2025</span>
+			<ul>
+				<li>tahoe 26.1 to 26.2 bug fix (synchronous applescript not allowed)</li>
+			</ul>
+
+			<!-- release -->
+			<h4>v3.00.4</h4>
+			Download
 			<a
 				href="https://github.com/steventheworker/DockAltTab/releases/download/v3.00.4/DockAltTab-v3.00.4.zip"
 				>DockAltTab-v3.00.4.zip</a
 			>
-			<br />
-			Download (Legacy build)
+			&nbsp; | &nbsp;
 			<a
 				href="https://github.com/steventheworker/DockAltTab/releases/download/v3.00.4/DockAltTab-macOS10.12.zip"
 				>macOS 10.12 build</a
@@ -128,7 +150,7 @@
 			<span>December 7, 2025</span>
 			<ul>
 				<li>Chromium / tahoe patch</li>
-				<li>open AltTab prefs from DAT Menubar /prefs</li>
+				<li>open AltTab prefs from DAT Menubar / prefs</li>
 			</ul>
 
 			<!-- release -->
