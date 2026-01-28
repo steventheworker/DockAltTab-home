@@ -5,7 +5,7 @@ if [ $# -eq 0 ]; then
 fi
 
 # switch to project
-cd ~/proj/Objective-C/DockAltTab
+cd ~/proj/obj-c/DockAltTab
 # switch to Sparkle
 cd Pods/Sparkle
 # run Sparkle command
