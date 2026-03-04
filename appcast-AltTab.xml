@@ -4,6 +4,18 @@
       <title>alt-tab-macos</title>
       <language>en</language>
       <item>
+         <title>Scriptable Version 1.94.4</title>
+         <pubDate>Tue, 3 Mar 2026 3:50:00 +0000</pubDate>
+         <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+         <sparkle:releaseNotesLink>https://dockalttab.netlify.app/changelog-sparkle/</sparkle:releaseNotesLink>
+         <enclosure
+            url="https://github.com/steventheworker/alt-tab-macos/releases/download/1.94.4/AltTab-scriptable-1.94.4.zip"
+            sparkle:version="8.3.3.1"
+            sparkle:shortVersionString="8.3.3.1"
+            sparkle:edSignature="YaHEADSuWbgfiNPw4Nr3o5EG5MDFWLMM7DDcv/MOF4K9V/KJ4UZ2mq3aYGA8gJmC7SFIffXNGhhoCfgChJrPDw==" length="11548932"
+            type="application/octet-stream"/>
+      </item>
+      <item>
          <title>Scriptable Version 1.94.3</title>
          <pubDate>Tue, 27 Jan 2026 3:50:00 +0000</pubDate>
          <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
