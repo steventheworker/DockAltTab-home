@@ -1,6 +1,6 @@
 window.latest = {
 	DockAltTab: "3.00.5",
-	AltTab: "1.94.2",
+	AltTab: "1.94.7",
 };
 
 window.onload = () => {
