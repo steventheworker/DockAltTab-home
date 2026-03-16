@@ -27,3 +27,5 @@ fs.writeFileSync("README.md", readme);
 console.log("README updated:");
 console.log("DockAltTab:", latest.DockAltTab);
 console.log("AltTab:", latest.AltTab);
+
+console.log("//TODO: ACTUALLY UPDATE README.md links");
